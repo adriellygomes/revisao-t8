@@ -21,7 +21,7 @@ function getDados() {
 
     const imgSrc = obj.imagem
     img.src = imgSrc;
-    div.appendChild(img);
+    input.appendChild(img);
   } else {
     console.log(request.readyState, request.status);
   }
